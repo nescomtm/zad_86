@@ -1,0 +1,26 @@
+{
+  "name": "zad_86",
+  "version": "1.0.0",
+  "description": "\"# zad_86\"",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nescomtm/zad_86.git"
+  },
+  "author": "TM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nescomtm/zad_86/issues"
+  },
+  "homepage": "https://github.com/nescomtm/zad_86#readme"
+}
