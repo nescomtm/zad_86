@@ -1,4 +1,3 @@
-﻿
 var a = prompt('Podaj Wartość dla : a');
 var b = prompt('Podaj Wartość dla : b');
 var value = 0;
@@ -15,7 +14,10 @@ if (value > 0) {
 } else if (value < 0) {
     alert('zmienna value z działania (a*a)+(2*a*b)-(b*b) jest mniejsza od 0 i ma wartosc ' + value);
     console.log('zmienna value z działania (a*a)+(2*a*b)-(b*b) jest mniejsza od 0 i ma wartosc ' + value);
-} else {
+} else if (value === 0) {
     alert('zmienna value z działania (a*a)+(2*a*b)-(b*b) jest równa 0  i ma wartosc ' + value);
     console.log('zmienna value z działania (a*a)+(2*a*b)-(b*b) jest równa 0  i ma wartosc ' + value);
+} else {
+    alert('zmienna value z działania (a*a)+(2*a*b)-(b*b) jest nieokreslona ' + value);
+    console.log('zmienna value z działania (a*a)+(2*a*b)-(b*b) jest nieokreslona ' + value);
 }
